@@ -110,7 +110,7 @@ async function weatherFetch(city) {
   console.log(weatherDays);
   current(
     currentDay.conditions,
-    Math.round(currentDay.temp),
+    Math.round(currentDay.temp) + "°F",
     Math.round(currentDay.tempmin),
     Math.round(currentDay.tempmax)
   );
