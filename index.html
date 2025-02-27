@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odin Weather</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="topbar">
+        <div class="logo">
+          <div class="icon">
+            <img src="./imgs/Helmet-logo.svg" alt="HelmetIcon" />
+          </div>
+          <div class="name">
+            <h2>Odin Weather</h2>
+          </div>
+        </div>
+        <div class="search">
+          <input
+            type="text"
+            name="search"
+            id="search"
+            placeholder="City, State, Country"
+          />
+          <button id="search-button">Search</button>
+        </div>
+      </div>
+      <div class="all-container">
+        <div class="city-head">
+          <h1 class="current-city">City</h1>
+        </div>
+        <div class="content-container">
+          <div class="current-day">
+            <img
+              src=""
+              alt="current-condition-image"
+              class="current-condition-image"
+            />
+            <div class="current-text">
+              <h1 class="current-conditions"></h1>
+              <div class="current-temps">
+                <h1 class="current-temp"></h1>
+                <p class="low-high">
+                  <span class="current-low"></span>/<span
+                    class="current-high"
+                  ></span>
+                </p>
+                <p class="low-high-label">Low/High</p>
+              </div>
+            </div>
+          </div>
+          <div class="five-day"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
