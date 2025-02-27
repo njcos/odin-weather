@@ -19,7 +19,7 @@ h4 {
   flex-direction: column;
   widht: 100vw;
   height: 100vh;
-  background-image: url("/imgs/background.jpeg");
+  background-image: url("imgs/background.jpeg");
   background-size: cover;
   background-position: center;
   overflow-y: scroll;
